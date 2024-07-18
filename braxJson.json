@@ -1,0 +1,21 @@
+{
+  "redirect": true,
+  "neory_id": 75267,
+  "template_place": "custom",
+  "template_url": "https://lp.brax.com",
+  "affiliate_network_prefix": "",
+  "urt_name": "BRAX DE",
+  "rules": [
+    {
+      "parameter": "actions",
+      "value": "purge.sessions.7200",
+      "comparison": ""
+    },
+    {
+      "parameter": "referrer2",
+      "value": "^https?://(?:[^/]){0,}(ams|creativecdn|google|googleapis|sslwidget|cleverpush|mycleverpush).(?:[^/]*)(?:/)?(.*)$",
+      "comparison": ""
+    },
+    { "parameter": "devMode", "value": "0", "comparison": "=" }
+  ]
+}
